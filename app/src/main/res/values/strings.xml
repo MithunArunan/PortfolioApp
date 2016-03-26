@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PortfolioApp</string>
+    <string name="appButtonName1">SPOTIFY STREAMER</string>
+    <string name="appButtonName2">SCORES APP</string>
+    <string name="appButtonName3">LIBRARY APP</string>
+    <string name="appButtonName4">BUILD IT BIGGER</string>
+    <string name="appButtonName5">XYZ READER</string>
+    <string name="appButtonName6">CAPSTONE</string>
+</resources>
