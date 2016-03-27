@@ -29,12 +29,13 @@ public class MainActivity extends ActionBarActivity {
         button6.setOnClickListener(new buttonClickListner());
     }
 
+    //Listerner Class
     private class buttonClickListner implements View.OnClickListener
     {
         private final String notifyText = "This Button Will launch";
         @Override
         public void onClick(View v) {
-            Toast.makeText(getApplicationContext(),notifyText+((Button)v).getText().toString(),Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),notifyText+((Button)v).getText().toString(),Toast.LENGTH_SHORT).show();
         }
     }
 
