@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
     //Listerner Class
     private class buttonClickListner implements View.OnClickListener
     {
-        private final String notifyText = "This Button Will launch";
+        private final String notifyText = "This Button Will launch  ";
         @Override
         public void onClick(View v) {
             Toast.makeText(getApplicationContext(),notifyText+((Button)v).getText().toString(),Toast.LENGTH_SHORT).show();
