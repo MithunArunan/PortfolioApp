@@ -1,4 +1,4 @@
-package com.craftybyte.portfolioapp;
+    package com.craftybyte.portfolioapp;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
     //Listerner Class
     private class buttonClickListner implements View.OnClickListener
     {
-        private final String notifyText = "This Button Will launch  ";
+        private final String notifyText = "This Button Will launch   ";
         @Override
         public void onClick(View v) {
             Toast.makeText(getApplicationContext(),notifyText+((Button)v).getText().toString(),Toast.LENGTH_SHORT).show();
